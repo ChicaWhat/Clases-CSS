@@ -38,9 +38,10 @@ div {
 
 
     /* Este código completo se puede resumir más aún
-    border-style: solid; 
-    border-color: blueviolet;
-    border-width: 3px; */
+    border-style(2): solid; 
+    border-color(3): blueviolet;
+    border-width(1): 3px; */
+
     border: solid 3px rgb(238, 76, 7);
     width: 50%;
     height: 200px;
@@ -99,4 +100,14 @@ div h2 {
     width: 450px;
     height: 150px;
     
+}
+
+#ejemplo1 {
+
+    border: 4px dashed silver;
+    margin: 30px;
+    padding: 40px;
+    width: 500px;
+    height: 100px;
+    overflow: auto;
 }
